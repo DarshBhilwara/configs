@@ -30,14 +30,15 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{b45da8d5-90cb-44bd-af84-858a896155df}",
     "initialRows": 30,
     "profiles": 
     {
-        "defaults": {
-            "colorScheme" : "Dracula",
-            "useAcrylic": true,
-            "acrylicOpacity": 0.5
+        "defaults": 
+        {
+            "acrylicOpacity": 1,
+            "colorScheme": "Dracula",
+            "useAcrylic": true
         },
         "list": 
         [
@@ -60,10 +61,18 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "guid": "{b45da8d5-90cb-44bd-af84-858a896155df}",
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell ",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "C:/Program Files (x86)/Git/bin/bash.exe -i -l",
+                "guid": "{e8fea22e-a74f-4abf-8524-9a408d07f5a2}",
+                "icon": "C:/Program Files (x86)/Git/mingw32/share/git/git-for-windows.ico",
+                "name": "Git Bash",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
