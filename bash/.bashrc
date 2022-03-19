@@ -121,7 +121,10 @@ neofetch
 eval "$(starship init bash)"
 
 #aliases extra
-alias aptup='sudo apt update && sudo apt upgrade -y'
 alias vim='nvim'
 alias nv='nvim'
+
+
+
+
 
